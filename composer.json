@@ -1,0 +1,17 @@
+{
+  "name": "bobrovva/anti_xss_lib",
+  "description": "Библиотека защиты от XSS",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "bobrovva\\anti_xss_lib\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "graham-campbell/binput": "^11.1",
+    "graham-campbell/security-core": "^4.0",
+    "laravel/framework": "^11.9"
+  }
+}
